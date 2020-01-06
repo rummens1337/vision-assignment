@@ -10,9 +10,9 @@ args = {}
 # path to input directory of faces + images"
 args['dataset'] = os.path.join(os.path.dirname(__file__), '..', 'dataset', 'classmates')
 # path to serialized db of facial encodings
-args['encodings'] = 'encodings.pickle'
+args['encodings'] = os.path.join(os.path.dirname(__file__), 'encodings.pickle')
 # "face detection model to use: either `hog` or `cnn`"
-args['detection_method'] = 'cnn'
+args['detection_method'] = 'hog'
 
 # grab the paths to the input images in our dataset
 print("[INFO] quantifying faces...")
