@@ -6,7 +6,8 @@ import pickle
 import time
 import cv2
 import os
-
+# https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/
+# https://www.pyimagesearch.com/2018/06/11/how-to-build-a-custom-face-recognition-dataset/
 args = {}
 # path to serialized db of facial encodings
 args['encodings'] = os.path.join(os.path.dirname(__file__), 'encodings.pickle')
